@@ -1,0 +1,70 @@
+.LeftBar {
+    position: fixed; /*fixed position*/
+    top: 60px; /*60px from the top*/
+    left: 0px;
+    bottom: 0px;
+    width: 270px; /*width of the bar*/
+    background-color: #e9c4a3; /*backgound color of the bar*/
+    overflow: auto; /*makes it scrollable if applicable*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.LeftBar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.LeftBar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#headerLeft {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.SearchSec {
+    display: flex;
+}
+
+#searchBox {
+    margin-left: 15px;
+    width: 170px;
+    height: 30px;
+}
+
+#noUser {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.UsersFound {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #e7ae78;
+    margin-top: 20px;
+}
+
+.UsersFound:hover {
+    transform: scale(1.05);
+}
+
+.UserFname {
+    font-size: 20px;
+}
+
+#infoSearch {
+    background-color:#805a39;
+    color: white;
+    cursor: pointer;
+}
+
+#infoSearch:hover {
+    transform: scale(1.05);
+}

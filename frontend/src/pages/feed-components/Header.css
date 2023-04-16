@@ -1,0 +1,35 @@
+.Head {
+    height: 60px; /*height of the header*/
+    width: 100%; /*width of the header*/
+    background-color: #CC9767; /*bg color*/
+    display: flex; /*so theat the pictures and text can be aligned only in a single line*/
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.MidHead {
+    display: block;
+    margin: 0 auto;
+    width: 12%;
+}
+
+#logoFeed {
+    height: 90px;
+}
+
+.RightHead {
+    margin-right: 10px;
+}
+
+#logout {
+    background-color:#CC9767;
+    cursor: pointer;
+}
+
+#logout:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,98 @@
+.RightBar {
+    position: fixed; /*fixed position*/
+    top: 60px; /*from the top*/
+    bottom: 0px;
+    right: 0px;
+    width: 270px; /*width*/
+    background-color: #ecc29d; /*bg color*/
+    overflow: auto /*enabgles scrolling if applicable*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.RightBar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.RightBar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#headerRight {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+#suggestedF {
+    color: gray;
+    font-family: sans-serif;
+}
+
+
+.FriendSuggestion {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #e7ae78;
+    margin-top: 20px;
+}
+
+.ConDelButton {
+    background-color:#805a39;
+    color: white;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.AddButton {
+    height: 30px;
+}
+
+.FRequests {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #e7ae78;
+    margin-top: 20px;
+}
+
+#FriendRhead {
+    color: gray;
+    font-family: sans-serif;
+}
+
+.Friendslist {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #e7ae78;
+    margin-top: 20px;
+}
+
+#friendsHead {
+    color: gray;
+}
+
+.AddButton {
+    background-color:#805a39;
+    color: white;
+    cursor: pointer;
+}
+
+.AddButton:hover {
+    transform: scale(1.05);
+}

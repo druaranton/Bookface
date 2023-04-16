@@ -1,0 +1,77 @@
+.SignUpPage {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-color: #CC9767;
+}
+
+#s-logo {
+    float: left; /*the logo floats in the left*/
+    width: 700px; /*width of the logo*/
+    padding-top: 120px; /*padding of logo*/
+}
+
+#s-myForm {
+    float: right; /*form floats in the right*/
+}
+
+#s-content{ /*content of the form*/
+    margin-top: 20px; /*top margin*/
+    margin-bottom: 20px; /*bottom margin*/
+    width: 500px; /*width*/
+    background-color: #e9c4a3; /*bg color*/
+    height:500px; /*height*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font family*/
+    font-size: 30px; /*font suze*/
+    
+    
+}
+#signUp { /*the sign  up legend*/
+    color: brown; /*text color*/
+    font-size: 50px; /*font size*/
+    font-weight: bold; /*makes it bold*/
+    font-family: sans-serif; /*font*/
+
+}
+
+.S-Field {
+    padding-bottom: 20px; /*padding of the fields*/
+}
+
+.SignLabel {
+    min-width:300px; /*width of the labels*/
+    display: inline-block;
+}
+
+.SignInput {
+    height: 30px; /*input height*/
+    border-radius: 10px; /*makes the edge curved*/
+    font-size: 15px; /*dont size*/
+}
+
+.S-Error { /*errors*/
+    margin-top: 0px; /*top margin*/
+    padding-left: 310px; /*left padding*/
+    font-size: 15px; /*dont size*/
+    text-align: justify; /*justify the text*/
+    color: red; /*text color*/
+}
+
+#signUpButton { /*the Sign Up button*/
+    margin: 0 auto; /*margin*/
+    height: 50px; /*height*/
+    width: 100px; /*width*/
+    background-color: #CC9767; /*bg color*/
+    color: white; /*text color*/
+    display: block;
+}
+
+#signUpButton:hover { /*when the button is hovered*/
+    transform: scale(1.1); /*scales the size*/
+}

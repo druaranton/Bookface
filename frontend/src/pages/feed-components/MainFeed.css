@@ -1,0 +1,78 @@
+.CenterContent {
+    position: fixed; /*fixed position*/
+    top: 60px; /*60px from the top*/
+    left: 270px; /*270px from the left*/
+    bottom: 0px; 
+    right: 270px; /*270px from the right*/
+    background-color: #cdb386; /*background color*/
+    overflow: auto /*emables scrolling if applicable*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.CenterContent::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.CenterContent {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.FormSection {
+    position: relative; /*relative position*/
+    width: 700px; /*width*/
+    margin: auto; /*auto margin to be in center*/
+    top: 20px;
+    padding-left: 10px; /*padding*/
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px; /*remove sharp edges*/
+    background-color: #F5F5DD; /*bg color*/
+}
+#postButton {
+    margin-left: 640px; /*location of the button*/
+    background-color: #CC9767; /*color*/
+    cursor: pointer;
+}
+
+.ContentSection {
+    position: relative; /*relative postition*/
+    width: 700px; /*width*/
+    margin: auto; /*auto margin to be center*/
+    top: 20px;
+    padding-left: 10px; /*padding*/
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #F5F5DD;
+    font-family: sans-serif; /*font*/
+}
+#postAuthor {
+    margin-bottom: 0px;
+    font-size: 16px; /*font size*/
+}
+
+#timestamp {
+    margin-top: 0px; /*top margin*/
+    font-size: 13px; /*font size*/
+    padding-left: 0px; /*left padding*/
+    
+}
+
+.ContentButton {
+    width: 350px; /*width of the button*/
+    background-color: #CC9767; /*color of button*/
+    cursor: pointer;
+}
+
+.EditArea {
+    margin-top: 10px;
+    width: 600px;
+}
+
+.SaveButton {
+    background-color: #CC9767; /*color of button*/
+}

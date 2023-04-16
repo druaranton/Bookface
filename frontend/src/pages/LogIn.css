@@ -1,0 +1,83 @@
+.LogInPage {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-color: #CC9767;
+}
+
+#l-logo {
+    float: left; /*the logo floats in the left*/
+    width: 700px; /*width of the logo*/
+    padding-top: 120px; /*padding of logo*/
+}
+
+#l-myForm {
+    float: right; /*form floats in the right*/
+}
+
+#l-content{ /*content of the form*/
+    margin-top: 70px; /*top margin*/
+    margin-bottom: 20px; /*bottom margin*/
+    width: 500px; /*width*/
+    background-color: #e9c4a3; /*bg color*/
+    height:400px; /*height*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font family*/
+    font-size: 30px; /*font suze*/
+    
+    
+}
+#logIn { /*the sign  up legend*/
+    color: brown; /*text color*/
+    font-size: 50px; /*font size*/
+    font-weight: bold; /*makes it bold*/
+    font-family: sans-serif; /*font*/
+
+}
+
+.L-Field {
+    margin-top: 70px;
+    padding-bottom: 40px; /*padding of the fields*/
+}
+
+.LogLabel {
+    min-width:300px; /*width of the labels*/
+    display: inline-block;
+}
+
+.LogInput {
+    height: 30px; /*input height*/
+    border-radius: 10px; /*makes the edge curved*/
+    font-size: 15px; /*dont size*/
+}
+
+#logInButton { /*the Sign Up button*/
+    margin: 0 auto; /*margin*/
+    height: 50px; /*height*/
+    width: 100px; /*width*/
+    background-color: #CC9767; /*bg color*/
+    color: white; /*text color*/
+    display: block;
+    margin-top: 40px;
+}
+
+#logInButton:hover { /*when the button is hovered*/
+    transform: scale(1.1); /*scales the size*/
+}
+
+#noAccYet {
+    margin: 0 auto;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#noAccYet:hover {
+    transform: scale(1.1);
+}
